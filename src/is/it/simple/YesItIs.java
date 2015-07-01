@@ -5,6 +5,8 @@ public class YesItIs {
 	private String howIsThat;
 	
 	private String didFromGit;
+	
+	private String testSec;
 
 	public String getHowIsThat() {
 		if(howIsThat.isEmpty()){
@@ -23,6 +25,14 @@ public class YesItIs {
 
 	public void setDidFromGit(String didFromGit) {
 		this.didFromGit = didFromGit;
+	}
+
+	public String getTestSec() {
+		return testSec;
+	}
+
+	public void setTestSec(String testSec) {
+		this.testSec = testSec;
 	}
 	
 	
